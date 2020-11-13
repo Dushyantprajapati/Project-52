@@ -1,0 +1,148 @@
+h1{
+    text-align: center;
+    color: lightsalmon;
+}
+
+h2{
+    font-size: medium;
+}
+
+
+h3{
+    font-size: 0.8cm ;
+    text-align: justify;
+    color: red;
+}
+h4{
+    border: solid;
+}
+h5{
+    color: red;
+    font-size: large;
+}
+
+.header{
+    background-color: rgb(255,255,153)
+
+}
+
+.grid{
+    background-color:  rgb(255,255,153);
+    
+}
+.item{
+    display:flex;
+    justify-content:space-evenly;
+    font-size: 0.8cm;
+}
+.projects{
+    border: 10px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 300px;
+    padding:  50px;
+    background-image: url(bg.png);
+}
+.click{
+    text-align: end;
+}
+.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sty{
+    background-image: url(header.png);
+    background-size: contain;
+}
+body{
+  margin: 0px;
+  background-image: url(bg3.png);
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.head{
+      
+  background-color:white;
+  background-image: url(bg3.png);
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+  border:solid;
+  font-family: fantasy;
+   }
+
+   .note{
+     background-image: url(bg3.png);
+     background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+     border: dotted;
+     
+   }
+
+   .menu{
+     display: flex;
+     justify-content: start;
+    
+     padding: 15px;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color: #000000;
+     
+     
+   }
+
+   .img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+    padding: 10%;
+    background-image: url(cyan.png);
+   }
+
+.grid {
+  background: darkred;
+  background-color: #F0F8FF;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.origami {
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 300px;
+  padding: 50px;
+  background-color:#E8E5E4;
+  border-width: 6px;
+  background-image: url(bg2.png);
+}
+.origami:hover{
+  transform: scale(1.2);
+  
+}
+
+a:link{
+  transform: scale(1.2);
+  color:whitesmoke;
+  
+}
+
+
+a:visited{
+  color:whitesmoke;
+}
+.img:hover{
+  color:  black;
+}
